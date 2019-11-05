@@ -1,5 +1,6 @@
 body {
     background-image: url("../images/bg.jpg");
+    background-repeat: repeat-y;
     height: 100%;
     width: 90%;
 }
@@ -66,7 +67,7 @@ header {
 
 
 
-main {
+main.row {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -180,7 +181,7 @@ main {
     padding: 5px;
 }
 
-.all-text2 .text-box4 {
+.all-text2 .text-box3 {
     border: 5px solid black;
     width: 60%;
     height: 350px;
@@ -225,3 +226,31 @@ main {
 
 /*VAARDIGHEDENN-------------------------------------------------*/
 
+.text-vg {
+    display: flex;
+    flex-direction: row;
+}
+
+.all-text .text-box4 {
+    border: 5px solid black;
+    width: 500px;
+    height: 310px;
+    background-color: white;
+    padding: 5px;
+}
+
+.all-text2 .text-box4 {
+    border: 5px solid black;
+    width: 400px;
+    height: 350px;
+    padding: 5px;
+    background-color: white;
+}
+
+.text-vgheden {
+    border: 5px solid black;
+    width: 400px;
+    height: 350px;
+    padding: 5px;
+    background-color: white;
+}
