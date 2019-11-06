@@ -335,3 +335,33 @@ main.row {
     width: 70%;
     background-color: green;
 }
+
+
+/* PROJECTEN---------------------------------------------*/
+
+.all-text .img-box4,.img-box5,.img-box6,.img-box7 {
+    border: 5px solid black;
+    width: 324px;
+    height: 324px;
+    background-color: white;
+    padding: 2px;
+}
+
+.img-box4 img {
+    width: 324px;
+    height: 324px;
+}
+.img-box5 img {
+    width: 324px;
+    height: 324px;
+}
+
+.img-box6 img {
+    width: 324px;
+    height: 324px;
+}
+
+.img-box7 img {
+    width: 324px;
+    height: 324px;
+}
