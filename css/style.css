@@ -368,4 +368,55 @@ main.row {
 
 /* CONTACTEN----------------------------------------------------------*/
 
+.ul-c a {
+    color: black;
+}
 
+.text-box-c {
+    border: 5px solid black;
+    width: 32%;
+    height: fit-content;
+    background-color: white;
+}
+
+.like-counter {
+    color: #000;
+    text-decoration: none;
+    margin-right: 5px;
+}
+      
+.like-counter:hover {
+      text-decoration: underline;
+    }
+  
+  }
+  .liked {
+    font-weight: bold;
+  }
+
+  .img-box7 img {
+    width: 324px;
+    height: 324px;
+}
+
+.img-box-c {
+    border: 5px solid black;
+    width: 32%;
+    height: 200px;
+    background-color: white;
+}
+
+.text .all-text-c {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 80%;
+    height: fit-content;
+    padding: 5px;
+    border: 5px solid black;
+    background-color: white;
+    
+}
+
+.text-boxc h2 {
+    text-align: center;
+}
