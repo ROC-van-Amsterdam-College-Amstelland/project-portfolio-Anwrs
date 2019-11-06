@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Over mij</title>
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -51,30 +51,80 @@
                     </div>
 
                     <div class="img-box-c">
-                            <span class="click-text"><a id="clicks"></span>
+                        <div class="boxer2">
+                            <h2>Wat vind je van mijn website?</h2>
+                            <div class="img-tekst">
+
+                                <h2>
+
+                                    <div id="bar">
+                                        <div id="likes"></div>
+                                        <div id="dislikes"></div>
+                                    </div>
+                                    <input type="button" value="Like" id="likeButton" onclick="like();" />
+                                    <input type="button" value="Dislike" id="dislikeButton" onclick="dislike();" />
+
+                            </div>
+
+
+                            </h2>
+                        </div>
                     </div>
-
-
                 </div>
-                <div class="all-text-c">
-                    <div class="text-boxc">
-                        <h2>Geef mijn website een like door op deze knop te drukken =</h2>
-                    <div class="img-tekst">
-                        <h2>
-                                <a href="#" class="like-counter">Like</a>
-                        </h2>
+
+
+            </div>
+            <div class="all-text-c">
+                <div class="text-boxc">
+                    <h1>Geef feedback!</h1>
+                    <div class="img-tekst4">
+                        <form>
+                            Naam:<br>
+                            <input type="text" name="firstname">
+                        </form>
                     </div>
+                    <div class="img-tekst2">
+                        <form>
+                            <br>
+                            Email:<br>
+                            <input type="text" name="lastname">
+                        </form>
                     </div>
+                    <div class="img-tekst3">
+                        <textarea rows="4" cols="110">Typ hier je tekst...</textarea>
 
 
 
-
-
+                    </div>
+                    <div><button class="but-comment">
+                            <h1>Verstuur!</h1>
+                    </div></button>
                 </div>
             </div>
+
+
+
+
+
+
+        </div>
+        </div>
         </div>
         </div>
     </main>
+    <footer class="footer-top">
+        <div class="footer-bar">
+            <div class="footer-h1">
+                <h1>Datum :</h1><br>
+            </div>
+            <div class="timeday">
+                <div id="vandaag">
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
 
     <script src="js/script.js"></script>

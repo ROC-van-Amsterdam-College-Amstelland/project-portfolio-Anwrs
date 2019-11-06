@@ -7,12 +7,35 @@ function changeImg() {
     }
 }
 
-var clicks = 14;
+var likes=0, dislikes=0;
 
-document.getElementById("clicks").innerHTML = clicks;
+//Functions to increase likes and immediately calculate bar widths
+function like(){
+	likes++;
+	calculateBar();
+}
+function dislike(){
+	dislikes++;
+	calculateBar();
+}
 
-$('.like-counter').click(function () {
-    clicks += 1;
-    document.getElementById("clicks").innerHTML = clicks;
-    $('.like-counter').addClass("liked");
-});
+//Calculates bar widths
+function calculateBar(){
+	var total= likes+dislikes;
+    //Simple math to calculate percentages
+	var percentageLikes=(likes/total)*100;
+	var percentageDislikes=(dislikes/total)*100;
+
+    //We need to apply the widths to our elements
+	document.getElementById('likes').style.width=percentageLikes.toString()+"%";
+	document.getElementById('dislikes').style.width=percentageDislikes.toString()+"%";
+    
+    //We add the numbers on the buttons, just to show how to
+    document.getElementById('likeButton').value="Like ("+likes.toString()+")";
+    document.getElementById('dislikeButton').value="Disike ("+dislikes.toString()+")";
+
+}
+
+calculateBar();
+
+datum=
