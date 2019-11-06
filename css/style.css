@@ -549,16 +549,11 @@ form input {
 
 }
 
-.footer-bar h1 {
+.footer-h1 h1 {
     margin: 0px 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     font-size: 30px;
-}
-
-.timeday {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
 }
 
 #vandaag {
@@ -567,7 +562,7 @@ form input {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     font-size: 30px;
-    text-shadow: 4px 4px 5px rgb(5, 5, 48);
+    text-shadow: 4px 4px 5px rgb(7, 7, 68);
 }
 
 .footer-top1 {
